@@ -42,7 +42,7 @@ elif model == 'Random Forest':
     rf_pickle.close()
 elif model == 'AdaBoost':
     st.sidebar.info('**✔️ You selected: AdaBoost**')
-    ada_pickle = open('Adaboost_fetal.pickle', 'rb') 
+    ada_pickle = open('AdaBoost_fetal.pickle', 'rb') 
     clf_ada = pickle.load(ada_pickle) 
     ada_pickle.close()
 else:
